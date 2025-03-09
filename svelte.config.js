@@ -12,7 +12,7 @@ const config = {
 			fallback: '404.html'
 		}),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/sveltekit-github-pages' : '',
+			base: process.env.NODE_ENV === 'production' ? '/portfolio' : '',
 		}
 	}
 };
